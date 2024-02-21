@@ -47,7 +47,7 @@ if (product_name == "ohos-sdk") {
   }
 
   group("images") {
-    deps = [ "//build/ohos/images:make_images" ]
+    # deps = [ "//build/ohos/images:make_images" ]
   }
 
   group("packages") {
